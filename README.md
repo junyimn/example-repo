@@ -1,10 +1,10 @@
 # example-repo
+
 This is an example of cloning a repo + using git with it
 
 NEVER CLONE A REPO INTO A REPO
 
 - git clone repo url 
-
 
 - modify the file -> made sure we saved
 
@@ -17,3 +17,17 @@ NEVER CLONE A REPO INTO A REPO
 - main -> current branch working on
 
 - git status -> check staging and committed
+
+--
+
+# Branching 
+
+- git branch -a -> see all of the branches
+
+Creating Branch
+
+- git checkout -b name-of-branch -> create a new branch from the main & and moved us onto that branch
+
+Navigating Branches
+
+- git checkout name-of-branch -> moved us onto it
